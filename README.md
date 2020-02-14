@@ -1,17 +1,15 @@
 # {Birthday calculator}
 #### {A web application to calculate day of your birth}, {2020 version}
-#### By **{Victor MOngare}**
+#### By **{Victor Mongare}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{This is a web application that is designed to aid people in finding out the day they were born.The day of the week they were born is calculated using their Akan name and the day of the week they were born is determined. }
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+{You can gain access to the code for the web application by forking from my github repository named birthday calculator.You can then make an offline copy by:
+    *copying the url from my github repository.
+    *typing git clone in the terminal followed by pasting the url
+YOu can also gain access of the web application online at https://victormongare1.github.io/birthday-calculator }
 ## Known Bugs
-{. }
+{.There are minimal technical issues in the web application.THe web application may have tiling of the background picture which may take ;long to load.The calculator also requires refreshing to use it again. }
 ## Technologies Used
 {I used html in writing the content of the web application.I used css to style the webapplication.I used JavaScript in creating the calculator for the birthday.}
 ## Support and contact details
