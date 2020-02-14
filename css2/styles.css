@@ -4,6 +4,7 @@ body{
 .jumbotron{
   text-align: center;
   background-image: url(../ghana\ 2.png);
+  font-size: 50px;
 }
 .card-title{
   text-align: center;
