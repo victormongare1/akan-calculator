@@ -4,13 +4,15 @@ body{
 .jumbotron{
   text-align: center;
   background-color: red;
-  font-size: 50px;
+  font-size: 60px;
 }
 .card-title{
   text-align: center;
+  font-size: 40px;
 }
 .card{
   background-color: green;
+  font-size: 30px;
 }
 .form-group{
   background-color: gold;
