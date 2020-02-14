@@ -1,8 +1,10 @@
-function myfunction(){
-  if(day>31||day<0){
-    prompt("input is not valid")
+
+function myfuntion(){
+  if(day>31 || day<0){
+    alert("invalid")
   }
   else{
-    prompt("enter month")
+    alert("Enter month")
   }
-}
+    
+
