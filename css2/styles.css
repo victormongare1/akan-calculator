@@ -1,6 +1,13 @@
 body{
-  background-image: url(../cake\ 2.jpeg);
+  background-image: url(../ghana.jpg);
 }
 .jumbotron{
   text-align: center;
+  background-image: url(../ghana\ 2.png);
+}
+.card-title{
+  text-align: center;
+}
+.card{
+  background-color: green;
 }
