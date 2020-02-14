@@ -3,7 +3,7 @@ body{
 }
 .jumbotron{
   text-align: center;
-  background-image: url(../ghana\ 2.png);
+  background-color: red;
   font-size: 50px;
 }
 .card-title{
@@ -11,4 +11,7 @@ body{
 }
 .card{
   background-color: green;
+}
+.form-group{
+  background-color: gold;
 }
