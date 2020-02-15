@@ -20,5 +20,7 @@ body{
 .form-group{
   background-color: gold;
   font-size: 25px;
-  text-align: center;
+}
+.radio-button{
+  background-color: gold;
 }

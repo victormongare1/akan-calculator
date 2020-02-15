@@ -23,24 +23,33 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="form-group">
-            <form name="myform"  method="get">
-            Day born:
-            <input type="number" id="day" placeholder="day" min="1" max="31" required><br />
-            Month born:
-            <input type="number" id="month" placeholder="month" min="1" max="12" required><br />
-            year:
-            <input type="number" id="year" placeholder="year last two digits" min="00" max="99" required><br />
-            century:
-            <input type="number" id="century" placeholder="century first two digits" min="01" max="21" required><br />
-            Gender:<br/>
-            <input type="radio" name="gender" value="male" /> Male <br />
-            <input type="radio" name="gender" value="female" /> Female <br />
-            <button type="submit" onclick="myfunction()">Submit</button>
-            </form>
+          <div class="form-group top-form">
+            <label for="century" class="labels">Century</label>
+            <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
           </div>
+          <div class="form-group">
+            <label for="year" class="labels">Year</label>
+            <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="99">
+          </div>
+          <div class="form-group">
+            <label for="month" class="labels">Month</label>
+            <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+          </div>
+          <div class="form-group">
+            <label for="monthDay" class="labels">Day of month</label>
+            <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="31">
+          </div>
+          <form class="radio-button">
+            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+            <br>
+          <div class="form-group">
+            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+            <h1 id="result"></h1>
+          </div>
+          </form>
         </div>
       </div>
     </div>
-    </body>
+  </body>
 </html>
