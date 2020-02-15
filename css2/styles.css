@@ -24,3 +24,6 @@ body{
 .radio-button{
   background-color: gold;
 }
+#outcome{
+  background-color: green;
+}
