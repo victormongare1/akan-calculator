@@ -17,7 +17,7 @@
 {You can gain access to the code for the web application by forking from my github repository named birthday calculator.You can then make an offline copy by:
     *copying the url from my github repository.
     *typing git clone in the terminal followed by pasting the url
-YOu can also gain access of the web application online at https://victormongare1.github.io/birthday-calculator }
+YOu can also gain access of the web application online at https://victormongare1.github.io/akan-calculator }
 ## Known Bugs
 {.There are minimal technical issues in the web application.THe web application may have tiling of the background picture which may take ;long to load.The calculator also requires refreshing to use it again.The calculator may need refreshing of the page in order to function. }
 ## Technologies Used
