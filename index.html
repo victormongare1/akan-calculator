@@ -6,7 +6,7 @@
     <link href="css2/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    
+    <script src="js/scripts.js"></script>
     <div class="container">
       <div class="jumbotron">
         <h1><u>AKAN BIRTHDAY CALCULATOR</u></h1>
@@ -24,34 +24,31 @@
         </div>
         <div class="col-md-6">
           <div class="form-group top-form">
-            <label for="century" class="labels">Century</label>
+            Century
             <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
           </div>
           <div class="form-group">
-            <label for="year" class="labels">Year</label>
+            Year
             <input type="number" placeholder="Enter the year last two digits" class="form-control" id="year" required min="00" max="99">
           </div>
           <div class="form-group">
-            <label for="month" class="labels">Month</label>
+            Month
             <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="1" max="12">
           </div>
           <div class="form-group">
-            <label for="monthDay" class="labels">Day of month</label>
+            Day
             <input type="number" placeholder="Enter the day of the month" class="form-control" id="day" required min="1" max="31">
           </div>
           <form class="radio-button">
-            <input type="radio" class="genders labels" value="male" id="male" name="rads" required>Male
-            <input type="radio" class="genders labels" value="female" id="female"  name="rads" required>Female
+            <input type="radio" value="male" id="male"  required>Male
+            <input type="radio" value="female" id="female" required>Female
             <br>
-          <div class="form-group">
-            <button type="button" name="button" class="btn btn-primary mb-2" onclick="checkgender()">Calculate Birthday</button>
-            <h3 id="outcome"></h3>
-          </div>
+            <div class="form-group">
+              <button type="button" class="btn-block" onclick="checkgender()">Calculate Birthday</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
-
-    <script src="js/scripts.js"></script>
   </body>
 </html>
