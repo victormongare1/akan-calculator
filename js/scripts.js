@@ -19,13 +19,13 @@ function checkgender() {
   if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
   alert("INVALID MONTH");
   }
-  else if (dd < 1 || dd > 31) {
+  if(dd < 1 || dd > 31) {
   alert("INVALID DAY");
   }
-  else if (Math.ceil(result) == 1 && gender === 'male');{
+  if(Math.ceil(result) == 1 && gender === 'male');{
   alert("Born on Monday ,your akan name is " + boy[1]);
   }
- if (Math.ceil(result) == 2 && gender === 'male') {  
+   if(Math.ceil(result) == 2 && gender === 'male') {  
   alert("Born on Tuesday ,your akan name is " + boy[2]);
   }
   else if (Math.ceil(result) == 3 && gender === 'male') {
