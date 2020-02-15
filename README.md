@@ -19,7 +19,7 @@
     *typing git clone in the terminal followed by pasting the url
 YOu can also gain access of the web application online at https://victormongare1.github.io/akan-calculator }
 ## Known Bugs
-{.There are minimal technical issues in the web application.THe web application may have tiling of the background picture which may take ;long to load.The calculator also requires refreshing to use it again.The calculator may need refreshing of the page in order to function. }
+{.There are minimal technical issues in the web application.THe web application may have tiling of the background picture which may take ;long to load.The calculator also requires refreshing to use it again.The calculator may need refreshing of the page in order to function.The calculator also alerts a wrong name before clicking ok then shows the correct name and date. }
 ## Technologies Used
 {I used html in writing the content of the web application.I used css to style the webapplication.I used JavaScript in creating the calculator for the birthday.}
 ## Support and contact details
