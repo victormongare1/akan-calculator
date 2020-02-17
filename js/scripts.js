@@ -13,22 +13,22 @@ function checkgender() {
   if (document.getElementById("male").checked){
   var gender = 'male';
   }
- else if (document.getElementById("female")){
-  var gender = 'female';
+  else if(document.getElementById("female").checked){
+  var gender= 'female';
   }
-  if (mm < 1 || mm > 12 || mm == 2 && dd > 29) {
+  if(mm < 1 || mm > 12 || mm == 2 && dd > 29) {
   alert("INVALID MONTH");
   }
-  if(dd < 1 || dd > 31) {
+  else if(dd < 1 || dd > 31) {
   alert("INVALID DAY");
   }
-  if(Math.ceil(result) == 1 && gender === 'male');{
+  else if(Math.ceil(result) === 1 && gender === 'male'){
   alert("Born on Monday ,your akan name is " + boy[1]);
-  }
-   if(Math.ceil(result) == 2 && gender === 'male') {  
+    }
+  else if(Math.ceil(result) === 2 && gender === 'male') {  
   alert("Born on Tuesday ,your akan name is " + boy[2]);
   }
-  else if (Math.ceil(result) == 3 && gender === 'male') {
+  else if (Math.ceil(result) === 3 && gender === 'male') {
   alert("Born on Wednesday ,your akan name is " + boy[3]);
   }
   else if (Math.ceil(result) === 4 && gender === 'male') {  
